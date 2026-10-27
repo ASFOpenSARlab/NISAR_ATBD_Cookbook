@@ -1,0 +1,25 @@
+name: nightly-build
+
+on:
+  workflow_dispatch:
+  # Runs nightly, right after sync-external-notebooks has pulled in upstream
+  # changes (that workflow holds the 00:00 UTC schedule).
+  workflow_run:
+    workflows:
+      - sync-external-notebooks
+    types:
+      - completed
+
+jobs:
+  build:
+    uses: ASFOpenSARlab/cookbook-actions/.github/workflows/build-book.yaml@main
+    with:
+      environment_manager: pixi
+
+  deploy:
+    needs: build
+    uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
+
+
+  link-check:
+    uses: ProjectPythia/cookbook-actions/.github/workflows/link-checker.yaml@main

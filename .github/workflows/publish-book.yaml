@@ -1,0 +1,23 @@
+name: publish-book
+
+on:
+  # Trigger the workflow on push to main branch
+  push:
+    branches:
+      - main
+    # A change to just the notebook list is built by nightly-build instead,
+    # after sync-external-notebooks has pulled the notebooks in.
+    paths-ignore:
+      - cookbook_sources.yml
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ASFOpenSARlab/cookbook-actions/.github/workflows/build-book.yaml@main
+    with:
+      environment_manager: pixi
+      build_command: 'myst build --html'
+
+  deploy:
+    needs: build
+    uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
