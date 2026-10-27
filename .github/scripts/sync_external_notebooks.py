@@ -462,7 +462,7 @@ def attribution_cell(nb, src, upstream, commit, date):
         license_text = ''
     text = (
         ':::{note} Source\n'
-        f'This notebook comes from [`{src.path}`]({src.blob_url()}) in the '
+        f'This notebook was imported from [`{src.path}`]({src.blob_url()}) in the '
         f'[{src.slug}]({repo_url}) repository{license_text}. '
         'Credit for its content goes to the authors of that repository.\n'
         '\n'
