@@ -1,1 +1,1 @@
-import{a}from"/ASF_Cookbook_Template/build/_shared/chunk-ASL3IUYC.js";import"/ASF_Cookbook_Template/build/_shared/chunk-RAQ24GF6.js";export default a();
+import{a}from"/NISAR_ATBD_Cookbook/build/_shared/chunk-ASL3IUYC.js";import"/NISAR_ATBD_Cookbook/build/_shared/chunk-RAQ24GF6.js";export default a();

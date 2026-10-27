@@ -1,1 +1,1 @@
-import{c as u}from"/ASF_Cookbook_Template/build/_shared/chunk-RAQ24GF6.js";var a=u((g,e)=>{function r(n){return{name:"ERB",subLanguage:"xml",contains:[n.COMMENT("<%#","%>"),{begin:"<%[%=-]?",end:"[%-]?%>",subLanguage:"ruby",excludeBegin:!0,excludeEnd:!0}]}}e.exports=r});export default a();
+import{c as u}from"/NISAR_ATBD_Cookbook/build/_shared/chunk-RAQ24GF6.js";var a=u((g,e)=>{function r(n){return{name:"ERB",subLanguage:"xml",contains:[n.COMMENT("<%#","%>"),{begin:"<%[%=-]?",end:"[%-]?%>",subLanguage:"ruby",excludeBegin:!0,excludeEnd:!0}]}}e.exports=r});export default a();

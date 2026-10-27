@@ -1,1 +1,1 @@
-import{a as e,b as r}from"/ASF_Cookbook_Template/build/_shared/chunk-7FGDXJSL.js";import"/ASF_Cookbook_Template/build/_shared/chunk-GEZIJWLJ.js";import"/ASF_Cookbook_Template/build/_shared/chunk-RAQ24GF6.js";export{e as ArchitectureModule,r as createArchitectureServices};
+import{a as e,b as r}from"/NISAR_ATBD_Cookbook/build/_shared/chunk-7FGDXJSL.js";import"/NISAR_ATBD_Cookbook/build/_shared/chunk-GEZIJWLJ.js";import"/NISAR_ATBD_Cookbook/build/_shared/chunk-RAQ24GF6.js";export{e as ArchitectureModule,r as createArchitectureServices};
