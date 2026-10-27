@@ -29,7 +29,7 @@ If you are working in a Jupyter Hub that allows you to build Pixi environments, 
 1. Clone the repository:
 
    ```bash
-    git clone https://github.com/your_account/your_cookbook.git
+    git clone https://github.com/ASFOpenSARlab/NISAR_ATBD_Cookbook.git
    ```
 
 1. Run the `notebooks/software_environment.ipynb` notebook.
@@ -40,17 +40,14 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "your_account/your_cookbook" with the GitHub org or user name and title of your cookbook repository)
 
-1. Create a copy of this Cookbook template repository, by clicking the `Use this template button` and selecting the `Create a new repository` option on this [repository's GitHub page](). 
-
-1. Clone the new repository:
+1. Clone this repository:
 
    ```bash
-    git clone https://github.com/your_account/your_cookbook.git
-   ```
+    git clone https://github.com/your_account/your_cookbook.githttps://github.com/ASFOpenSARlab/NISAR_ATBD_Cookbook.git
 
-1. Move into the `your_cookbook` directory
+1. Move into the `NISAR_ATBD_Cookbook` directory
    ```bash
-   cd your_cookbook
+   cd NISAR_ATBD_Cookbook
    ```
 1. Launch in Jupyter Lab with the included Pixi environment
     ```bash
