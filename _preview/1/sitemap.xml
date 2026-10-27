@@ -5,24 +5,42 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/how-to-cite</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/software-environment</loc>
   </url>
   <url>
     <loc>http://localhost:3000/set-up-earthdata-login</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/contributing</loc>
+    <loc>http://localhost:3000/nisar-l3-inundation-productgeneration</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/notebook-template</loc>
+    <loc>http://localhost:3000/nisar-l3-croparea-productgeneration</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/search-stream-nisar-asf-search</loc>
+    <loc>http://localhost:3000/nisar-l3-agb-productgeneration</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/access-nisar-data</loc>
+    <loc>http://localhost:3000/generate-sea-ice-motion</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/coseismic-requirement-validation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/permafrost-requirement-validation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/permafrost-fielddata</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/secular-requirement-validation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/transient-requirement-validation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/uavsar-stack-processing-isce</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/nisar-bitemporal-disturbance-demo-validation</loc>
   </url>
 </urlset>

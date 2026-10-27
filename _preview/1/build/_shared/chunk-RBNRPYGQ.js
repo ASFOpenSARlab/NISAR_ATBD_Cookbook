@@ -1,4 +1,4 @@
-import{b as e}from"/ASF_Cookbook_Template/_preview/1/build/_shared/chunk-DYFJVR7X.js";var l=e(()=>`
+import{b as e}from"/NISAR_ATBD_Cookbook/_preview/1/build/_shared/chunk-DYFJVR7X.js";var l=e(()=>`
   /* Font Awesome icon styling - consolidated */
   .label-icon {
     display: inline-block;
