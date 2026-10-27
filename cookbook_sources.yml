@@ -1,0 +1,41 @@
+# Notebooks pulled into this Cookbook from other GitHub repositories.
+#
+# The "sync-external-notebooks" GitHub Action reads this file every night (and
+# whenever it changes on main), then for each notebook below it:
+#   - copies the latest version into external/<owner>/<repo>/<original path>,
+#   - copies any images the notebook uses, keeping their relative paths,
+#   - copies any local Python modules the notebook imports or %runs (and the
+#     modules those import), keeping their relative paths so the imports work,
+#   - adds a Markdown cell crediting and linking to the original notebook,
+#   - lists the notebook in myst.yml under the section named in `toc_section`.
+#
+# To add a notebook, paste its GitHub URL as a new `- url:` entry.
+# To remove one, delete its entry; its copy, images and modules are removed on the next sync.
+# To place a notebook elsewhere in the table of contents, move its `- file:` line
+# in myst.yml outside the "external notebooks" marker comments; the sync then
+# leaves it where you put it. If you later remove its entry here, delete that line
+# from myst.yml too (the sync fails with a reminder until you do).
+# Files under external/ are overwritten on every sync, so edit notebooks upstream.
+#
+# Optional keys for each entry:
+#   title:   page title in the table of contents (defaults to the notebook's own title)
+#   group:   sub-heading to list the notebook under, inside `toc_section`
+#   ref:     branch, tag or commit to follow (defaults to the one in the URL)
+#   include: extra files or folders from the same repo to copy alongside the
+#            notebook, for anything the sync can't detect, such as data files
+#            a notebook or helper module reads: [data/sample.csv]
+
+toc_section: NISAR Level-3 ATBD Notebooks
+
+sources:
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_Inundation/blob/main/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_CropArea/blob/main/notebooks/NISAR_L3_CropArea_ProductGeneration.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_Biomass/blob/main/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SeaIce/blob/main/generate_sea_ice_motion.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/coseismic/Coseismic_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/permafrost/Permafrost_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/permafrost/Permafrost_fielddata.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/secular/Secular_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/transient/Transient_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/uavsar/UAVSAR_Stack_Processing_ISCE.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_Disturbance/blob/main/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb

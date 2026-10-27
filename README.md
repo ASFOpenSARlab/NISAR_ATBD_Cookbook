@@ -1,41 +1,24 @@
-# [OpenScienceLab Cookbook Template] Replace with Your Title
+# NISAR Level-3 ATBD Cookbook
 
-<img src="assets/ASF_logo.svg" alt="thumbnail" width="300"/>
+<img src="assets/2022_NISAR_Beauty_03.png" alt="thumbnail" width="800"/>
 
 [![nightly-build](https://github.com/ASFOpenSARlab/ASF_Cookbook_Template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ASFOpenSARlab/ASF_Cookbook_Template/actions/workflows/nightly-build.yaml)
 
 
-This Cookbook Template was adapted from the Project Pythia [Cookbook Template](https://github.com/projectpythia/cookbook-template/blob/main/README.md). It has been updated to provide templates for ASF Cookbooks using the Pixi package manager.
+This Cookbook complies the NISAR Level-3 Algorithm Theoretrical Basis Document notebooks into a single location.
 
-See the [Project Pythia Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide/#:~:text=forking%20workflow.-,G.%20Deploying%20your%20Cookbook,%C2%B6,-Pythia%20Cookbooks%20are) for instructions on deploying your Cookbook to GitHub Pages.
+The ATBD notebooks are synced with the originals in their upstream repositories each night.
 
-This Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
 
-## Motivation
+## ATBDs
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+1. Wetland Inundation
+2. Crop Area
+3. Biomass
+4. Sea Ice Motion
+5. Solid Earth
+6. Forest Disturbance
 
-## Authors
-
-First Author, Second Author, etc. _Acknowledge primary content authors here! You can include links to their GitHub profiles or other unique pages._
-
-### Contributors
-
-<a href="https://github.com/ASFOpenSARlab/ASF_Cookbook_Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ASFOpenSARlab/ASF_Cookbook_Template" />
-</a>
-
-## Structure
-
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
 
 ## Running the Notebooks
 
