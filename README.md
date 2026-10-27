@@ -5,7 +5,7 @@
 [![nightly-build](https://github.com/ASFOpenSARlab/ASF_Cookbook_Template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ASFOpenSARlab/ASF_Cookbook_Template/actions/workflows/nightly-build.yaml)
 
 
-This Cookbook complies the NISAR Level-3 Algorithm Theoretrical Basis Document notebooks into a single location.
+This Cookbook compiles the NISAR Level-3 Algorithm Theoretrical Basis Document notebooks into a single location.
 
 The ATBD notebooks are synced with the originals in their upstream repositories each night.
 
