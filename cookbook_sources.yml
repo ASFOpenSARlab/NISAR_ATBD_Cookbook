@@ -25,9 +25,17 @@
 #            notebook, for anything the sync can't detect, such as data files
 #            a notebook or helper module reads: [data/sample.csv]
 
-toc_section: Community Notebooks
+toc_section: NISAR Level-3 ATBD Notebooks
 
 sources:
-  - url: https://github.com/ASFOpenSARlab/NISAR_Cookbook/blob/main/notebooks/search_stream_NISAR_asf_search.ipynb
-
-  - url: https://github.com/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/blob/main/4_Access_NISAR_Data.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_Inundation/blob/main/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_CropArea/blob/main/notebooks/NISAR_L3_CropArea_ProductGeneration.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_Biomass/blob/main/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SeaIce/blob/main/generate_sea_ice_motion.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/coseismic/Coseismic_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/permafrost/Permafrost_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/permafrost/Permafrost_fielddata.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/secular/Secular_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/transient/Transient_Requirement_Validation.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/uavsar/UAVSAR_Stack_Processing_ISCE.ipynb
+  - url: https://github.com/NISAR-Science-Algorithms/NISAR_Disturbance/blob/main/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb

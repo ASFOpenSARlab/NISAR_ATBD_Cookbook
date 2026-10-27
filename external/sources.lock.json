@@ -1,27 +1,129 @@
 {
   "notebooks": {
-    "external/ASFOpenSARlab/NISAR_Cookbook/notebooks/search_stream_NISAR_asf_search.ipynb": {
-      "commit": "18589d57e111d8f9ca30a8ffe107bf145c20b1bd",
+    "external/NISAR-Science-Algorithms/NISAR_Biomass/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb": {
+      "commit": "6d35f8a1f23c26fa6aef6f2dab9a4f1c2a99ad42",
       "files": [
-        "external/ASFOpenSARlab/NISAR_Cookbook/assets/edl_token.png",
-        "external/ASFOpenSARlab/NISAR_Cookbook/notebooks/search_stream_NISAR_asf_search.ipynb",
-        "external/ASFOpenSARlab/NISAR_Cookbook/util/__init__.py",
-        "external/ASFOpenSARlab/NISAR_Cookbook/util/aoi_coverage.py",
-        "external/ASFOpenSARlab/NISAR_Cookbook/util/wkt.py"
+        "external/NISAR-Science-Algorithms/NISAR_Biomass/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_Biomass/nisar_leno_biomass_files/Approach.png",
+        "external/NISAR-Science-Algorithms/NISAR_Biomass/nisar_leno_biomass_files/NISAR_Mission_Logo.png",
+        "external/NISAR-Science-Algorithms/NISAR_Biomass/nisar_leno_biomass_files/fig1.png"
       ],
-      "source": "https://github.com/ASFOpenSARlab/NISAR_Cookbook/blob/main/notebooks/search_stream_NISAR_asf_search.ipynb"
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_Biomass/blob/main/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb"
     },
-    "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/4_Access_NISAR_Data.ipynb": {
-      "commit": "4a9175dcb9628e9aec8deafeafb47897f495ae47",
+    "external/NISAR-Science-Algorithms/NISAR_CropArea/notebooks/NISAR_L3_CropArea_ProductGeneration.ipynb": {
+      "commit": "b220610d0e661045bb4b291628d5c3342ab3afd6",
       "files": [
-        "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/4_Access_NISAR_Data.ipynb",
-        "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/ASF_support_logo.png",
-        "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/github_issues.png",
-        "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/util/__init__.py",
-        "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/util/subset_gunw.py",
-        "external/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/util/wkt.py"
+        "external/NISAR-Science-Algorithms/NISAR_CropArea/notebooks/NISAR_ATBD_crops_dataflow.png",
+        "external/NISAR-Science-Algorithms/NISAR_CropArea/notebooks/NISAR_L3_CropArea_ProductGeneration.ipynb"
       ],
-      "source": "https://github.com/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book/blob/main/4_Access_NISAR_Data.ipynb"
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_CropArea/blob/main/notebooks/NISAR_L3_CropArea_ProductGeneration.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_Disturbance/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb": {
+      "commit": "a52797d47c21023464c215766d980b8d7b706f2f",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_Disturbance/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_Disturbance/blob/main/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb": {
+      "commit": "145032d60b704417080975e5ed200b30f861d567",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/util/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/util/aoi_coverage.py",
+        "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/util/util.py",
+        "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/util/wkt.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_Inundation/blob/main/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SeaIce/generate_sea_ice_motion.ipynb": {
+      "commit": "d0caa85ad0043cf07c98e9cd58a2d65607dd4baa",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/generate_sea_ice_motion.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/utils/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/utils/aoi.py",
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/utils/download.py",
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/utils/raster.py",
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/utils/search.py",
+        "external/NISAR-Science-Algorithms/NISAR_SeaIce/utils/viz.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SeaIce/blob/main/generate_sea_ice_motion.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/coseismic/Coseismic_Requirement_Validation.ipynb": {
+      "commit": "8f932202975ac846cdd79423c5e651fe5bd2dc1c",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/coseismic/Coseismic_Requirement_Validation.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/configs.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/corrections.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/fitting.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/gnss_utils.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/plotting.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/sampling.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/saving.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/variogram.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/coseismic/Coseismic_Requirement_Validation.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/permafrost/Permafrost_Requirement_Validation.ipynb": {
+      "commit": "16d809a5e869789e34367347e7fb3c646bc4f09e",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/permafrost/HappyValleyEast_level.png",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/permafrost/Permafrost_Requirement_Validation.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/permafrost_utils.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/plotting.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/sampling.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/saving.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/variogram.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/permafrost/Permafrost_Requirement_Validation.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/permafrost/Permafrost_fielddata.ipynb": {
+      "commit": "16d809a5e869789e34367347e7fb3c646bc4f09e",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/permafrost/Permafrost_fielddata.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/permafrost_utils.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/permafrost/Permafrost_fielddata.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/secular/Secular_Requirement_Validation.ipynb": {
+      "commit": "8f932202975ac846cdd79423c5e651fe5bd2dc1c",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/secular/Secular_Requirement_Validation.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/configs.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/corrections.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/fitting.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/gnss_utils.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/plotting.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/sampling.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/saving.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/variogram.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/secular/Secular_Requirement_Validation.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/transient/Transient_Requirement_Validation.ipynb": {
+      "commit": "4890b59bf53aa5760b04b06e502de40d762bfaef",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/transient/Transient_Requirement_Validation.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/__init__.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/configs.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/corrections.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/plotting.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/sampling.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/saving.py",
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/solid_utils/variogram.py"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/transient/Transient_Requirement_Validation.ipynb"
+    },
+    "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/uavsar/UAVSAR_Stack_Processing_ISCE.ipynb": {
+      "commit": "7b4aea76f08161245452131fc1a84aa7f5698b4a",
+      "files": [
+        "external/NISAR-Science-Algorithms/NISAR_SolidEarth/methods/uavsar/UAVSAR_Stack_Processing_ISCE.ipynb"
+      ],
+      "source": "https://github.com/NISAR-Science-Algorithms/NISAR_SolidEarth/blob/main/methods/uavsar/UAVSAR_Stack_Processing_ISCE.ipynb"
     }
   }
 }

@@ -4,7 +4,7 @@ from itertools import cycle
 from shapely import wkt
 
 
-def plot_aoi_coverage(gpolygons, aoi_wkt, product_type):
+def plot_aoi_coverage(gpolygons, aoi_wkt):
     colors = cycle([
         "yellow",
         "cyan",
@@ -18,8 +18,7 @@ def plot_aoi_coverage(gpolygons, aoi_wkt, product_type):
     all_lons = []
     
     m = Map(zoom=7)
-    m.layout.width = "100%"
-    m.layout.height = "800px"
+    
     m.add(basemap_to_tiles(basemaps.Esri.WorldImagery))
     
     labels = TileLayer(
@@ -72,7 +71,7 @@ def plot_aoi_coverage(gpolygons, aoi_wkt, product_type):
     )
     
     legend = widgets.HTML(
-        value=f"""
+        value="""
         <div style="
             background-color: rgba(255,255,255,0.5);
             padding: 8px 10px;
@@ -87,7 +86,7 @@ def plot_aoi_coverage(gpolygons, aoi_wkt, product_type):
     
             <div style="display:flex; align-items:center; gap:6px; margin-bottom:6px;">
                 <span style="display:inline-block; width:28px; border-top:2px dashed red;"></span>
-                <span>AOI</span>
+                <span>AOI (subset_wkt)</span>
             </div>
     
             <div style="display:flex; align-items:center; gap:6px;">
@@ -99,7 +98,7 @@ def plot_aoi_coverage(gpolygons, aoi_wkt, product_type):
                     <span style="display:inline-block;width:8px;height:12px;border:1px solid orange;"></span>
                     <span style="display:inline-block;width:8px;height:12px;border:1px solid blue;"></span>
                 </span>
-                <span>NISAR {product_type} extents</span>
+                <span>NISAR GCOV extents</span>
             </div>
         </div>
         """,
