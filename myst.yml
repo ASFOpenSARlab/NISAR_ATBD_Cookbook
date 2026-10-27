@@ -4,7 +4,7 @@ project:
   title: NISAR Level-3 ATBD Cookbook
   github: https://github.com/ASFOpenSARlab/ASF_Cookbook_Template
   authors:
-    - name: ASF
+    - name: NISAR Operational Science Team
   copyright: '2026'
   toc:
     - file: README.md
