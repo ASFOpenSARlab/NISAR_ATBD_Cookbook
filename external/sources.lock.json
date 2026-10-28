@@ -4,6 +4,7 @@
       "commit": "6d35f8a1f23c26fa6aef6f2dab9a4f1c2a99ad42",
       "files": [
         "external/NISAR-Science-Algorithms/NISAR_Biomass/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_Biomass/config/config.ini",
         "external/NISAR-Science-Algorithms/NISAR_Biomass/nisar_leno_biomass_files/Approach.png",
         "external/NISAR-Science-Algorithms/NISAR_Biomass/nisar_leno_biomass_files/NISAR_Mission_Logo.png",
         "external/NISAR-Science-Algorithms/NISAR_Biomass/nisar_leno_biomass_files/fig1.png"
@@ -21,7 +22,8 @@
     "external/NISAR-Science-Algorithms/NISAR_Disturbance/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb": {
       "commit": "a52797d47c21023464c215766d980b8d7b706f2f",
       "files": [
-        "external/NISAR-Science-Algorithms/NISAR_Disturbance/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb"
+        "external/NISAR-Science-Algorithms/NISAR_Disturbance/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb",
+        "external/NISAR-Science-Algorithms/NISAR_Disturbance/resources/wasabi_leno.txt"
       ],
       "source": "https://github.com/NISAR-Science-Algorithms/NISAR_Disturbance/blob/main/notebook/NISAR_bitemporal_disturbance_demo_validation.ipynb"
     },
