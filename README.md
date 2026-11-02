@@ -46,7 +46,7 @@ If you are interested in running this material locally on your computer, you wil
 1. Clone this repository:
 
    ```bash
-    git clone https://github.com/your_account/your_cookbook.githttps://github.com/ASFOpenSARlab/NISAR_ATBD_Cookbook.git
+    git clone https://github.com/ASFOpenSARlab/NISAR_ATBD_Cookbook.git
 
 1. Move into the `NISAR_ATBD_Cookbook` directory
    ```bash
