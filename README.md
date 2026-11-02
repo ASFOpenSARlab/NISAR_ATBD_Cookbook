@@ -54,5 +54,5 @@ If you are interested in running this material locally on your computer, you wil
    ```
 1. Launch in Jupyter Lab with the included Pixi environment
     ```bash
-    pix run lab
+    pixi run lab
     ```
