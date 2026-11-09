@@ -29,6 +29,8 @@ toc_section: NISAR Level-3 ATBD Notebooks
 
 sources:
   - url: https://github.com/NISAR-Science-Algorithms/NISAR_Inundation/blob/main/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb
+    include:
+      - ancillary_data/wetland_calibration_parameters.yaml
   - url: https://github.com/NISAR-Science-Algorithms/NISAR_CropArea/blob/main/notebooks/NISAR_L3_CropArea_ProductGeneration.ipynb
   - url: https://github.com/NISAR-Science-Algorithms/NISAR_Biomass/blob/main/algorithm/notebooks/NISAR_L3_AGB_ProductGeneration.ipynb
   - url: https://github.com/NISAR-Science-Algorithms/NISAR_SeaIce/blob/main/generate_sea_ice_motion.ipynb

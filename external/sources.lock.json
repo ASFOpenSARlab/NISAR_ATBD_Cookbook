@@ -30,6 +30,7 @@
     "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb": {
       "commit": "145032d60b704417080975e5ed200b30f861d567",
       "files": [
+        "external/NISAR-Science-Algorithms/NISAR_Inundation/ancillary_data/wetland_calibration_parameters.yaml",
         "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/NISAR_L3_Inundation_ProductGeneration.ipynb",
         "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/util/__init__.py",
         "external/NISAR-Science-Algorithms/NISAR_Inundation/notebooks/util/aoi_coverage.py",
